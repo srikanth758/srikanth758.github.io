@@ -24,7 +24,7 @@ root = tk.Tk()
 root.title("List Files in Directory")
 
 # Create a button to trigger the file listing
-browse_button = tk.Button(root, text="Select Folder", command=list_files_in_directory)
+browse_button = tk.Button(root, text="Select Folder", command=list_files_in_directory, width=20, height=2)
 browse_button.pack(pady=20)
 
 # Run the application
